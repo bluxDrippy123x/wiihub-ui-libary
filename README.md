@@ -1,13 +1,12 @@
 # Create Window
 ```lua
 local Fun = loadstring(game:HttpGet("https://raw.githubusercontent.com/insanedude59/CheetoHub/main/newlib"))() -- Cheeto hub's UI library
+local a = Fun.Create('Title')
 ```
 
 # Elements
 ```lua
 local tab1 = name:Tab("Tab 1")
-
-local a = Fun.Create('whatever this is')
 
 local section1 = tab1:Section('Section')
 
