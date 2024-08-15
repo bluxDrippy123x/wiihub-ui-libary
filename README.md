@@ -13,12 +13,10 @@ local section1 = tab1:Section('Section')
 
 section1:Slider("Print",0,50,function(value)
 	game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = value
-print(value) -- Makes sure the script is working and it can past this line
 end)
 
 section1:Dropdown("Dropdown",{"Apple","Water","Grass"},function(val)
-
-print(val) -- Makes sure the script is working and it can past this line
+	print(val) -- Makes sure the script is working and it can past this line
 end)
 
 section1:Label('Label')
